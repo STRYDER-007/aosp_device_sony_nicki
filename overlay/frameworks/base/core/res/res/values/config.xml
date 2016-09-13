@@ -167,8 +167,8 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">32</integer>
+         config to 7. 
+    <integer name="config_deviceHardwareWakeKeys">32</integer> -->
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
@@ -293,11 +293,11 @@
     <string translatable="false" name="config_radio_access_family">GSM | WCDMA</string>
 
     <!-- Support in Surfaceflinger for blur layers.
-         NOTE: This requires additional hardware-specific code. -->
-    <bool name="config_ui_blur_enabled">true</bool>
+         NOTE: This requires additional hardware-specific code.
+    <bool name="config_ui_blur_enabled">true</bool> -->
 
-    <!-- Show battery fully charged notification -->
-    <bool name="config_showBatteryFullyChargedNotification">true</bool>
+    <!-- Show battery fully charged notification
+    <bool name="config_showBatteryFullyChargedNotification">true</bool> -->
 
     <!-- Older rotation sensors are not setting event.timestamp correctly. Setting to
          true will use SystemClock.elapsedRealtimeNanos() to set timestamp.
