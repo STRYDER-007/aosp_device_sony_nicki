@@ -15,10 +15,10 @@
 #
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/du/config/nfc_enhanced.mk)
 
-# Inherit common CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit common DU stuff
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Inherit device configurations
 $(call inherit-product, device/sony/nicki/device.mk)
@@ -29,7 +29,7 @@ TARGET_SCREEN_WIDTH := 480
 
 # Device identifications
 PRODUCT_DEVICE := nicki
-PRODUCT_NAME := cm_nicki
+PRODUCT_NAME := du_nicki
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := nicki
