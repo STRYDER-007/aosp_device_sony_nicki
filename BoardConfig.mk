@@ -26,3 +26,6 @@ include $(DEVICE_PATH)/board/*.mk
 
 # Board device vendor
 -include vendor/sony/nicki/BoardConfigVendor.mk
+
+# Board kernel headers
+PRODUCT_VENDOR_KERNEL_HEADERS := device/sony/nicki/kernel-headers
