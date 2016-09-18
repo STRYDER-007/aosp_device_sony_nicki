@@ -1,0 +1,11 @@
+# mountpoint      fstype            device                                              [options]
+
+/boot             emmc      /dev/block/platform/msm_sdcc.1/by-name/boot           flags=backup=1
+/recovery         emmc      /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel     flags=backup=1;canbewiped;wipeingui;display="FOTA Recovery"
+/system           ext4      /dev/block/platform/msm_sdcc.1/by-name/system         flags=backup=1;canbewiped;wipeingui;display="System"
+/data             ext4      /dev/block/platform/msm_sdcc.1/by-name/userdata       flags=backup=1;canbewiped;wipeingui;wipeduringfactoryreset;display="Data"
+/cache            ext4      /dev/block/platform/msm_sdcc.1/by-name/cache          flags=backup=1;canbewiped;wipeingui;wipeduringfactoryreset;display="Cache"
+
+/external_sd      vfat      /dev/block/mmcblk1p1 /dev/block/mmcblk1               flags=display="MicroSD Card";storage;wipeingui;removable
+/usbdisk          vfat      /dev/block/sda1      /dev/block/sda                   flags=display="USB-OTG Storage";storage;wipeingui;removable
+

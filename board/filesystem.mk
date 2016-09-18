@@ -9,6 +9,3 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # Partitions blocks
 BOARD_FLASH_BLOCK_SIZE := 131072
-
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
